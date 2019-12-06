@@ -1,3 +1,4 @@
+
 .placeholder{
     text-align: center;
 }
@@ -10,13 +11,22 @@
 .subcontent{}
 .subcontent-window{
     height:25vh;
-
+}
+.p-null{
+    padding: 0;
+}
+.m-null{
+    margin: 0;
 }
 #content-blog{
     margin: 1%;
 }
+#blog-title{
+    text-decoration: underline;
+}
 #blog-window{
     height: 75vh;
+    border: 1px solid black;
 
 }
 #blog-content{
