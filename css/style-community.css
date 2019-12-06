@@ -1,3 +1,24 @@
 .placeholder{
     text-align: center;
 }
+.t-left{
+    text-align: left;
+}
+.t-right{
+    text-align: right;
+}
+.subcontent{}
+.subcontent-window{
+    height:25vh;
+
+}
+#content-blog{
+    margin: 1%;
+}
+#blog-window{
+    height: 75vh;
+
+}
+#blog-content{
+    padding-left: 3px;
+}

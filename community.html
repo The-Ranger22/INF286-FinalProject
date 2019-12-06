@@ -17,21 +17,52 @@
 <div class="placeholder">HEADER</div>
 <div class="container-fluid border placeholder">
     <div class="row">
-        <div class="col-2 border">x</div>
-        <div class="col-8 border">
+        <div class="d-none d-md-block col-md-1 col-lg-2 border">SIDE</div>
+        <div class="col-md-10 col-lg-8 border">
             <div class="row" id="content-header">
-                <div class="col">x</div>
+                <div class="col"><h2>Community</h2></div>
             </div>
             <div class="row" id="content-blog">
-                <div class="col">BLOG</div>
+                <div class="col border" id="blog-window">
+                    <div class="row">
+                        <div class="col-3 border"><h4 class="" id="blog-title">TITLE</h4></div>
+                        <div class="col border"></div>
+                        <div class="col-3 border"><p class="" id="blog-date">DATE</p></div>
+                    </div>
+                    <hr class="row">
+                    <div class="row" id="blog-content">
+                        <p class="t-left">asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="">
+                <div class="col">
+                    <form>
+                        <input class="text-center" type="text" name="pageNumber" value="1" size="1" maxlength="2">
+                        <p>of 12</p>
+                        <input class="btn btn-primary" type="submit" value="Go!">
+                    </form>
+                </div>
             </div>
             <div class="row">
-                <div class="col-4 border" id="content-testimonials">x</div>
-                <div class="col-4 border" id="content-photos">x</div>
-                <div class="col-4 border" id="content-tips">x</div>
+                <span class="col-md-4 subcontent border" id="content-testimonials">
+                    <div class="col border">testimonials</div>
+                    <hr class="row">
+                    <div class="col subcontent-window"></div>
+                </span>
+                <span class="col-md-4 border" id="content-photos">
+                    <div class="col border">photos</div>
+                    <hr class="row">
+                    <div class="subcontent-window"></div>
+                </span>
+                <span class="col-md-4 border" id="content-tips">
+                    <div class="col border">tips</div>
+                    <hr class="row">
+                    <div class="subcontent-window"></div>
+                </span>
             </div>
         </div>
-        <div class="col-2 border">x</div>
+        <div class="d-none d-md-block col-md-1 col-lg-2 border">SIDE</div>
     </div>
 </div>
 <div class="placeholder">FOOTER</div>
