@@ -50,6 +50,9 @@
 .hovpinkb:hover {
   background-color: #ff6db1;
 }
+.hovlpinkb:hover {
+    background-color: #ffc1e5;
+  }
 .l {
   font-size: large;
 }
