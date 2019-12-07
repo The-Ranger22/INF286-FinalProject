@@ -8,9 +8,17 @@
 .t-right{
     text-align: right;
 }
-.subcontent{}
+.spacer-1{
+    padding: 1rem;
+}
+.subcontent{
+    border: 1px solid black;
+    border-radius:5px;
+    padding-bottom: 10px;
+}
 .subcontent-window{
     height:25vh;
+    border: 1px solid black;
 }
 .p-null{
     padding: 0;
@@ -20,6 +28,14 @@
 }
 #content-blog{
     margin: 1%;
+}
+#content-tips{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+#content-testimonials{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 #blog-title{
     text-decoration: underline;
