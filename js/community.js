@@ -8,10 +8,11 @@ class Post {
     }
 }
 
-let blogPage = 1;
-let tipsPage = 1;
 
-let contentReady = false;
+let blogContentReady = false;
+let testimonialContentReady = false;
+
+let numOfTestimonials;
 
 let loadDelay = setInterval(isContentReady, 500);
 
@@ -68,25 +69,8 @@ let tipsArray = [
 "Oh Yeah… Just Call to Chat!",
 "And Finally… If she says no, don&#8217;t give up, continue to offer to help."];
 //Main
-$.getJSON("https://api.myjson.com/bins/143qnc", function (data) {
-    for (i = 0; i < data.length; i++) {
-
-        newTitle = data[i]['title'];
-        newDate = data[i]['date'];
-        newContent = data[i]['content'];
-
-        blogMap.set(i, new Post(newTitle, newDate, newContent));
-        console.log(blogMap.get(i));
-        console.log(blogMap.get(i).content); //IT WORKS YES! HOLY MOLY
-
-
-    }
-    contentReady = true;
-    console.log("Blog content ready.")
-});
-
-
-
+getBlogEntries();
+getTestimonialEntries();
 isContentReady();
 
 
@@ -98,10 +82,11 @@ $("#blog-goto-page").on('click', function () {
 $("#tips-content").click(function () {
     randomTip();
 });
-
+$("#t-btn-left ").on('click', function(){traverseTestimonials($("#t-btn-left").val())});
+$("#t-btn-right ").on('click', function(){traverseTestimonials($("#t-btn-right").val())});
 //Functions
 function gotoPage(reqPage) {
-    if (reqPage > 12 || reqPage < 1) {
+    if (reqPage > blogMap.size || reqPage < 1) {
         $("#blog-requested-page").val("1");
         alert("Index out of bounds, call a priest");
         return;
@@ -111,12 +96,36 @@ function gotoPage(reqPage) {
     $("#blog-date").text(blogMap.get(reqPage - 1).date);
     $("#blog-content").text(blogMap.get(reqPage - 1).content);
 }
+function traverseTestimonials(btnVal){
+    let currentEntry = parseInt($("#t-page").val());
+    switch(btnVal){
+        case "left":
+            if(currentEntry > 1) {
+                currentEntry--;
+                $("#t-page").val(currentEntry);
+            }
+            break;
+        case "right":
+            if(currentEntry < testimonialMap.size) {
+                currentEntry++;
+                $("#t-page").val(currentEntry);
+            }
+            break;
+        default:
+            currentEntry = 1;
+    }
+    $("#testimonial-title").text(testimonialMap.get(currentEntry - 1).title);
+    $("#t-content").text(testimonialMap.get(currentEntry - 1).content);
+}
 
 function isContentReady() {
 
-    if (contentReady == true) {
+    if (blogContentReady && testimonialContentReady) {
         $(function () {
+
             gotoPage(parseInt($("#blog-requested-page").val()));
+            traverseTestimonials(1);
+            randomTip();
         });
         clearInterval(loadDelay);
     }
@@ -126,6 +135,45 @@ function getRandomInt(max) {
 }
 function randomTip(){
     $("#tips-content").html('<p>'+tipsArray[getRandomInt(46)]+'</p>');
+}
+function getBlogEntries(){
+    //populating blogMap with entries pulled from a JSON file
+    $.getJSON("https://api.myjson.com/bins/ypel0", function (data) {
+        for (i = 0; i < data['Blog'].length; i++) {
+
+            newTitle = data['Blog'][i]['title'];
+            newDate = data['Blog'][i]['date'];
+            newContent = data['Blog'][i]['content'];
+
+            blogMap.set(i, new Post(newTitle, newDate, newContent));
+            console.log(blogMap.get(i));
+            console.log(blogMap.get(i).content); //IT WORKS YES! HOLY MOLY
+
+
+        }
+        blogContentReady = true;
+        console.log("Blog content ready.");
+    });
+}
+//populating testimonialMap with entries pulled from a JSON file
+function getTestimonialEntries(){
+    $.getJSON("https://api.myjson.com/bins/ypel0", function (data) {
+        for (i = 0; i < data['Testimonials'].length; i++) {
+
+            newTitle = data['Testimonials'][i]['title'];
+            newDate = data['Testimonials'][i]['date'];
+            newContent = data['Testimonials'][i]['content'];
+
+            testimonialMap.set(i, new Post(newTitle, newDate, newContent));
+            console.log(testimonialMap.get(i));
+            console.log(testimonialMap.get(i).content); //IT WORKS YES! HOLY MOLY
+
+
+        }
+        testimonialContentReady = true;
+        console.log("Testimonial content ready.");
+        console.log("T-Map length: " + testimonialMap);
+    });
 }
 
 

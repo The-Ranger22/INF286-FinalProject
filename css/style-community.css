@@ -20,11 +20,17 @@
     min-height:25vh;
     border: 1px solid black;
 }
+.p-top-10{
+    padding-top: 10px;
+}
 .p-null{
     padding: 0;
 }
 .m-null{
     margin: 0;
+}
+.side-btn{
+    width: 1%;
 }
 #content-blog{
     margin: 1%;
@@ -41,10 +47,16 @@
     text-decoration: underline;
 }
 #blog-window{
-    height: 75vh;
+    min-height: 50vh;
     border: 1px solid black;
 
 }
+#blog-date{
+    font-size: 12px;
+}
 #blog-content{
     padding-left: 3px;
+}
+#t-content-window{
+    min-height:15vh;
 }

@@ -140,7 +140,7 @@
             <div class="row" id="content-blog">
                 <div class="col" id="blog-window">
                     <div class="row">
-                        <div class="col-3"><h4 class="" id="blog-title">TITLE</h4></div>
+                        <div class="col-5"><h4 class="" id="blog-title">TITLE</h4></div>
                         <div class="col"></div>
                         <div class="col-3"><p class="" id="blog-date">DATE</p></div>
                     </div>
@@ -155,7 +155,7 @@
                     <form class="row">
                         <span class="col-4"><input id="blog-requested-page" class="text-center" type="text"
                                                    name="pageNumber" value="1" size="1" maxlength="2"/></span>
-                        <span class="col-4"><p id="blog-pages">of 12</p></span>
+                        <span class="col-4"><p id="blog-pages">of 3</p></span>
                         <span class="col-4"><button id="blog-goto-page" type="button"
                                                     class="btn btn-primary">Go!</button></span>
                     </form>
@@ -166,12 +166,32 @@
                 <span class="col-md-6 subcontent" id="content-testimonials">
                     <div class="col">testimonials</div>
                     <hr class="row">
-                    <div class="col subcontent-window"></div>
+                    <div class="col subcontent-window">
+                        <div class="row">
+                            <div class="col m-null p-null align-self-center"><h5 id="testimonial-title"></h5></div>
+                        </div>
+                        <hr class="row m-null p-null">
+                        <div id="t-content-window" class="row">
+                            <div class="col">
+                                <p id="t-content">
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="row m-null p-null">
+                        <div class="row">
+                            <button id="t-btn-left" class="btn col" type="button" value="left"><i class="fa fa-arrow-left"></i></button>
+                            <form class="align-self-center">
+                                <input class="text-center" id="t-page" type="text" value="1" size="1" maxlength="2">
+                            </form>
+                            <button id="t-btn-right" class="col btn" type="button" value="right"><i class="fa fa-arrow-right"></i></button>
+                        </div>
+
+                    </div>
                 </span>
                 <span class="col-md-6 subcontent" id="tips">
                     <div class="col">Tips</div>
                     <hr class="row">
-                    <div class="subcontent-window" id="tips-content">
+                    <div class="subcontent-window align-self-center p-top-10" id="tips-content">
                     </div>
                 </span>
             </div>

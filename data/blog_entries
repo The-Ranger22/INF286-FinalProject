@@ -1,18 +1,47 @@
 
-[
+{"Blog":[
     {
       "title": "Attention AMAZON Shoppers!!",
       "date": "Posted on August 31st, 2019 by CHICKS & CHUCKS",
       "content": "Hey Amazon.com shoppers!!!  It’s another EASY way to give back! \n\nAmazon has a new fund raising program called Amazon Smile. Go to http://smile.amazon.com and link your amazon.com account to CHICKS and CHUCKS, Inc.\n\nThen go to http://smile.amazon.com to make all of your amazon.com purchases.\n\nEasy-Peasy-Lemon-Squeezy!\n\nIt’s the same amazon.com web site with all of the same amazon.com benefits but one half of one percent of every purchase you make will go to CHICKS & CHUCKS!!\n\n**Note ~ Recurring Subscribe-and-Save purchases and subscription renewals are currently NOT eligible.**"
     },
     {
-      "title": "test2-1",
-      "date": "test2-2",
-      "content": "test2-3"
+      "title": "THANK YOU GAME TIME SPORTS BAR",
+      "date": "Posted on July 19th, 2019 by CHICKS & CHUCKS",
+      "content": "Chicks and Chucks would like to thank and acknowledge Tiffany Blackburn with Game Times Sports Bar in Newport, Kentucky for the generous donation resulting from their 3rd Annual Poker Run.  It is with the continued support of our community that we are able to continue helping breast cancer patients and families in our local community."
     },
     {
-      "title": "test3-1",
-      "date": "test3-2",
-      "content": "test3-3"
+      "title": "Network for Good",
+      "date": "Posted on May 29th, 2019 by CHICKS & CHUCKS",
+      "content": "To ALL of our anonymous donors through NETWORK for GOOD: We are so grateful for your generosity, continued support and prayers. The joy that you bring to our patients is truly inspirational and very much appreciated. I truly believe, “Our light shines the brightest to GOD when we help someone we don’t know”.\n\nForever Grateful,\nThe Board members of Chicks & Chucks, Inc.\nand all the patients who benefit from your kindness.\nGOD BLESS:)"
     }
- ]
+ ],
+  "Testimonials": [
+    {
+      "title": "Testimonial – SG",
+      "date": "Posted on August 6th, 2019 by CHICKS & CHUCKS",
+      "content": "Your generous gift made me cry tears of joy. May God bless you for all the work you do on a daily basis. SG"
+    },
+    {
+      "title": "Testimonial – SZ",
+      "date": "Posted on August 6th, 2019 by CHICKS & CHUCKS",
+      "content": "Your organization has really touched our hearts. We are incredibly grateful for all that you do! SZ"
+    },
+    {
+      "title": "Testimonial – AWW",
+      "date": "Posted on July 24th, 2019 by CHICKS & CHUCKS",
+      "content": "I want to say Thank You. Your support is greatly appreciated. Since this journey\nbegan earlier this year, finding additional survivors has been the best and positive\nmotivation that I needed to keep me going thru the chemo. AWW"
+    },
+    {
+      "title": "Testimonial – NV",
+      "date": "Posted on July 24th, 2019 by CHICKS & CHUCKS",
+      "content": "Can’t thank you enough for all the love and support you gave me. You are like\nan angel sent to me at just the right time. NV"
+    },
+    {
+      "title": "Testimonial – P.G.",
+      "date": "Saturday, March 2nd, 2019",
+      "content": "Thanks for the blessing of my wig. I am truly thankful for everything you have done for me."
+    }
+  ]
+
+}
