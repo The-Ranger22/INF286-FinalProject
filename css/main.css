@@ -81,11 +81,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .top-ico {
-  font-size: 12vh;
+  font-size: 8vw;
 }
 
 .bot-ico {
-  font-size: 9vh;
+  font-size: 9vw;
 }
 .one-edge-shadow {
   -moz-box-shadow: inset 0px 0px 39px -10px #000000;
