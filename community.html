@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style-community.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,700|Fredoka+One|Lobster+Two:400,400i,700,700i|Monoton|Poiret+One&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,700|Fredoka+One|Lobster+Two:400,400i,700,700i|Monoton|Poiret+One&display=swap"
+          rel="stylesheet"/>
     <link rel="icon" href="http://chicksandchucks.org/favicon.gif" type="image/gif">
     <link
             href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -152,9 +153,11 @@
             <div class="row" id="">
                 <div class="col">
                     <form class="row">
-                        <span class="col-4"><input id="blog-requested-page" class="text-center" type="text" name="pageNumber" value="1" size="1" maxlength="2"></span>
+                        <span class="col-4"><input id="blog-requested-page" class="text-center" type="text"
+                                                   name="pageNumber" value="1" size="1" maxlength="2"/></span>
                         <span class="col-4"><p id="blog-pages">of 12</p></span>
-                        <span class="col-4"><input id="blog-goto-page" class="btn btn-primary" type="submit" value="Go!"></span>
+                        <span class="col-4"><button id="blog-goto-page" type="button"
+                                                    class="btn btn-primary">Go!</button></span>
                     </form>
                 </div>
             </div>
@@ -165,10 +168,11 @@
                     <hr class="row">
                     <div class="col subcontent-window"></div>
                 </span>
-                <span class="col-md-6 subcontent" id="content-tips">
-                    <div class="col">tips</div>
+                <span class="col-md-6 subcontent" id="tips">
+                    <div class="col">Tips</div>
                     <hr class="row">
-                    <div class="subcontent-window"></div>
+                    <div class="subcontent-window" id="tips-content">
+                    </div>
                 </span>
             </div>
             <div class="row spacer-1"></div>
@@ -176,6 +180,7 @@
         <div class="d-none d-md-block col-md-1 col-lg-2"></div>
     </div>
 </div>
+
 <!-- start of footer -->
 <div class="container-fluid pink d-md-none d-block" id="footer">
     <div class="row h-100">

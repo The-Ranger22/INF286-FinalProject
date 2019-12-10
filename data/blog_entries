@@ -1,9 +1,9 @@
-{
-  "Blog": [
+
+[
     {
-      "title": "test1-1",
-      "date": "test1-2",
-      "content": "test1-3"
+      "title": "Attention AMAZON Shoppers!!",
+      "date": "Posted on August 31st, 2019 by CHICKS & CHUCKS",
+      "content": "Hey Amazon.com shoppers!!!  It’s another EASY way to give back! \n\nAmazon has a new fund raising program called Amazon Smile. Go to http://smile.amazon.com and link your amazon.com account to CHICKS and CHUCKS, Inc.\n\nThen go to http://smile.amazon.com to make all of your amazon.com purchases.\n\nEasy-Peasy-Lemon-Squeezy!\n\nIt’s the same amazon.com web site with all of the same amazon.com benefits but one half of one percent of every purchase you make will go to CHICKS & CHUCKS!!\n\n**Note ~ Recurring Subscribe-and-Save purchases and subscription renewals are currently NOT eligible.**"
     },
     {
       "title": "test2-1",
@@ -15,19 +15,4 @@
       "date": "test3-2",
       "content": "test3-3"
     }
-  ],
-  "Testimonial:": [
-    {
-      "title": "test4-1",
-      "date": "test4-2",
-      "content": "test4-3"
-    }
-  ],
-  "Tips": [
-    {
-      "title": "test5-1",
-      "date": "test5-2",
-      "content": "test5-3"
-    }
-  ]
-}
+ ]
