@@ -82,24 +82,31 @@ body {
 }
 .top-ico {
   font-size: 12vh;
-  text-shadow: 3px 3px 4px #7f7f7f;
 }
 
 .bot-ico {
   font-size: 9vh;
-  text-shadow: 3px 3px 7px #3f3f3f;
 }
 .one-edge-shadow {
   -moz-box-shadow: inset 0px 0px 39px -10px #000000;
   -webkit-box-shadow: inset 0px 0px 39px -10px #000000;
   box-shadow: inset 0px 0px 39px -10px #000000;
+} 
+.top-shadow{
+  text-shadow: 3px 3px 4px #7f7f7f;
 }
-.but-shadow {
-  -moz-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+.bot-shadow{
+  text-shadow: 3px 3px 7px #3f3f3f;
 }
 .nav-link:hover {
   -webkit-box-shadow: inset 0px -23px 50px -30px #000000;
   box-shadow: inset 0px -23px 50px -30px #000000;
+}
+body{
+  font-family: "Dosis", sans-serif;
+}
+.in-but{
+  -webkit-box-shadow: inset 0px 23px 20px -30px #000000,0px 15px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 23px 20px -30px #000000,0px 15px 20px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 23px 20px -30px #000000,0px 15px 20px rgba(0, 0, 0, 0.4);
 }
