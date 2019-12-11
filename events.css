@@ -1,0 +1,30 @@
+.pp-icon {
+    font-size: 70px;
+    color: #FF6DB1;
+}
+
+i:hover {
+    color: #93D868;
+}
+
+.btn {
+    background-color: #FF6DB1;
+    color: white;
+    border: #FF6DB1;
+}
+
+.btn:hover {
+    background-color: #93D868;
+}
+.carousel{
+	width: 500px; 
+	height:500px; 
+	margin: 0 auto
+}
+@media only screen and (max-width: 800px) {
+	.carousel {
+		width: 200px; 
+		height: 200px; 
+		margin: 0 auto;
+	}	
+}
