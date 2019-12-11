@@ -1,0 +1,96 @@
+.aboutUsTxt {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.missState {
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pName {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pTitle {
+    font-size: 23px;
+    text-align: center;
+    font-style: italic;
+}
+
+.adjustM {
+    margin-top: 120px;
+}
+
+.groupPhoto {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("http://chicksandchucks.org/wp-content/uploads/2011/07/GroupNew.jpg");
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txtGroupPhoto {
+    font-size: 13px;
+    text-align: center;
+}
+
+.tAl {
+    padding: 1px;
+    text-align: left;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.taC {
+    padding: 1px;
+    text-align: center;
+    font-size: 19px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 28px;
+}
+
+.cathyPhoto {
+    background-image: url("http://chicksandchucks.org/wp-content/uploads/2011/06/Individual10Sm.jpg");
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+.container {
+    padding: 2px 16px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(118, 230, 118);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
