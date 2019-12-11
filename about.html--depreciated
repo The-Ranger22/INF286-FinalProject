@@ -1,0 +1,771 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>About Us</title>
+    <link href="css/FinalGroupProject.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="http://chicksandchucks.org/favicon.gif" type="image/gif">
+    <link
+        href="https://fonts.googleapis.com/css?family=Dosis:400,500,700|Fredoka+One|Lobster+Two:400,400i,700,700i|Monoton|Poiret+One&display=swap"
+        rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <style>
+    </style>
+</head>
+
+<body style="background-color:#fddde6 ">
+    <div id="top" class="container-fluid bg lobster">
+        <div class="row">
+            <div class="col-md-4 col-8 text-left">
+                <div class="row">
+                    <div class="col px-0">
+                        <a href="index.html">
+                            <img class="img-fluid" src="img/Logo.png" alt="logo" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-block d-md-none col-4">
+                <div class="row h-100">
+                    <div class="col-12 align-self-center text-center h-50 pt-2">
+                        <a class="mr-md-5 mr-2 bot-ico" href="http://www.facebook.com/CHICKSandCHUCKS"><i
+                                class="fa fa-facebook tpink hovgreen top-shadow"></i></a>
+                        <a class="bot-ico" href="http://twitter.com/chicksandchucks"><i
+                                class="tpink hovgreen fa fa-twitter top-shadow"></i></a>
+                    </div>
+                    <div class="col-12 h-50">
+                        <nav class="navbar navbar-light align-items-center h-100">
+                            <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse"
+                                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="d-md-block d-none col-4 mx-auto text-center">
+                <div class="row h-100">
+                    <div class="col align-self-center">
+                        <p></p>
+                        <a href="https://www.paypal.com/us/home">
+                            <button class="btn green hovpinkb xl px-5 py-2 fredoka in-but border-0">Donate Now!</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-md-block d-none col-4 mx-auto text-center">
+                <div class="row h-100">
+                    <div class="col align-self-center">
+                        <a class="top-ico top-shadow  mr-md-5 mr-2" href="http://www.facebook.com/CHICKSandCHUCKS"><i
+                                class="fa fa-facebook tpink hovgreen"></i></a>
+                        <a class="top-ico top-shadow" href="http://twitter.com/chicksandchucks"><i
+                                class="tpink hovgreen fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col p-0">
+                <div class="d-md-block d-none">
+                    <nav class="navbar navbar-expand-md navbar-light pink one-edge-shadow">
+                        <div class="navbar-nav mx-auto text-center justify-content-between align-items-center">
+                            <a class="nav-item nav-link px-2 xl hovgreenb rounded" href="index.html">Home</a>
+                            <a class="nav-item nav-link hovgreenb xl px-2 rounded active" href="about.html">About Us</a>
+                            <a class="nav-item nav-link hovgreenb xl px-2 rounded" href="donation.html">Donations</a>
+                            <a class="nav-item nav-link hovgreenb xl px-2 rounded" href="community.html">Community</a>
+                            <a class="nav-item nav-link hovgreenb xl px-2 rounded" href="event.html">Events</a>
+                            <!-- for active page
+              <a class="nav-item nav-link active" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              > -->
+                        </div>
+                    </nav>
+                </div>
+                <div class=" d-md-none d-block">
+                    <nav class="navbar navbar-expand-md navbar-light pink one-edge-shadow collapse navbar-collapse"
+                        id="navbarToggleExternalContent">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link xl hovgreenb rounded pl-3" href="index.html">Home</a>
+                            <a class="nav-item nav-link hovgreenb xl rounded pl-3 active" href="about.html">About Us</a>
+                            <a class="nav-item nav-link hovgreenb xl rounded pl-3" href="donation.html">Donations</a>
+                            <a class="nav-item nav-link hovgreenb xl rounded pl-3" href="community.html">Community</a>
+                            <a class="nav-item nav-link hovgreenb xl rounded pl-3" href="event.html">Events</a>
+                            <!-- for active page
+                  <a class="nav-item nav-link active" href="#"
+                    >Home <span class="sr-only">(current)</span></a
+                  > -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bigger " class="container-fluid d-none d-lg-block ">
+        <div class="row ">
+            <div class="col-5 aboutUsTxt ">About Us</div>
+            <div class="col-5 "></div>
+            <div class="col-2 "></div>
+        </div>
+        <br />
+        <div class="row ">
+            <div class="col-3 "></div>
+            <div class="col-6 groupPhoto "></div>
+            <div class="col-3 "></div>
+
+        </div>
+        <div class="row ">
+            <div class="col-3 "></div>
+            <div class="col-6 txtGroupPhoto ">First row left to right looking at the picture Bev Smith, Missy Mullen,
+                Cheryl Hardin, Lisa Webster, Jennifer Tharp Back row Barb Schmidt, Claire Bazler, Cathy Youtsey
+                Halloran, Carol Brun, Sue Fausz</div>
+            <div class="col-3 "></div>
+        </div>
+        <br />
+
+        <div class=" missState ">Mission Statement</div>
+
+
+        <div class="row ">
+            <div class="col-2 "></div>
+
+            <div class="col-9 tAl ">The mission of Chicks & Chucks Inc. is to be a resource for Breast Cancer patients
+                who require products and services in their battle and have little or no financial means to acquire what
+                they need.</div>
+            <div class="col-1 "></div>
+
+        </div>
+        <br />
+
+
+        <div class="missState ">How we became "Chicks and Chucks "</div>
+        <br />
+
+        <div class="row ">
+            <div class="col-2 "></div>
+
+            <div class="col-9 tAl ">You can probably figure out on your own that a “Chick” is a girl and and “Chuck” is
+                a boy. But the history behind it goes back to when Cathy was a little girl. Her mother, Shirley, would
+                always refer to her and her sister Cheryl as Chicks.
+                And in 1997 her mother passed away. Grief stricken Cathy and Cheryl wanted a way to be able to
+                incorporate their mother in their everyday lives. So they began calling each other “Chick”, and it just
+                stuck. So when Cathy started her organization
+                she wanted to call it “Chicks”. But with the support of her family and friends, she realized that there
+                was quite a few men, that would not take kindly to being referred to as “Chicks” so that is where she
+                came up with “Chucks”. And that
+                is how we came to be known as “Chicks & Chucks”. In 2006, Cathy’s “Chicks and Chucks”, became a
+                non-profit, 501 (c) (3) organization.</div>
+            <div class="col-1 "></div>
+
+        </div>
+        <br />
+        <div class="missState ">2008 Woman of the Year</div>
+        <div class="row ">
+            <div class="col-2 "></div>
+
+            <div class="col-9 tAl ">In 2008 Cathy “CHICK” Youtsey-Halloran was voted one of Cincinnati Enquirer’s Women
+                of the Year. She was honored for her hard work and dedication to helping those who are in need of
+                assistance while fighting their cancer battle. She was featured
+                in a special section of the Cincinnati Enquirer, and was honored at the 41st Annual Women of the Year
+                Luncheon.</div>
+            <div class="col-1 "></div>
+
+        </div>
+        <br>
+        <div class=" pName adjustM ">Cathy Youtsey-Halloran</div>
+
+        <div class=" pTitle "> Founder, President, Survivor of Chicks & Chucks, Inc</div>
+        <br />
+
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 text-right "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual10Sm.jpg " alt=" "></div>
+            <div class="col-6 pr-5 ">On August 6, 2001 my life changed forever. Never would I imagine this path GOD has
+                designed for me. On that day, I was diagnosed with breast cancer – and that is when the transformation
+                took place. Upon hearing the paralyzing word “CANCER”,
+                my life changed forever. I had no idea just how incredible the journey would be. My sister/best friend
+                reminded me of a phrase our Mom would always say, “This has happened for a reason”!!! At that point I
+                asked GOD to give me a second
+                chance and I vowed to HIM that I would dedicate the rest of my life to help others battling this same
+                terrible disease. HE certainly answered my prayer and now it is my turn to live up to that vow. Thus the
+                creation of CHICKS & CHUCKS.
+                We are an incredible group of hard working, compassionate, caring, loving, committed and AMAZING Chicks
+                and Chucks (guys). Our group truly embraces the bond we have. We use our positive energy to raise money
+                to supply products and services
+                for breast cancer patients/survivors in our own communities. Chicks & Chucks was created in 2005. We
+                became non-profit on July 18, 2006 and have never looked back- only forward! We are truly blessed
+                because our family members and their
+                spouses/friends complete our circle of strength and determination. Chick & Chucks has grown and expanded
+                each year. We have been able to help more people each year because of our dedicated supporters. We are a
+                dedicated group, with dedicated
+                supporters trying to make a difference in our local communities.</div>
+
+        </div>
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 txtGroupPhoto ">Contact Information:<br /> Home: 859.781.3097<br /> Cell:
+                859.630.1807<br /> Fax: 859.781.0389<br /> challoran@chicksandchucks.org
+            </div>
+            <div class="col-6 "></div>
+        </div>
+        <br />
+        <br />
+        <div class=" pName adjustM ">Carol Brun</div>
+
+
+
+
+        <div class=" pTitle "> (Board Member) Member of Chicks & Chucks, Inc. since 2007</div>
+        <br />
+
+
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 text-right "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual7Sm.jpg " alt=" "></div>
+            <div class="col-6 pr-5 ">I joined Chicks & Chucks after attending a fundraiser and being moved by Cathy’s
+                determination and devotion to helping those battling breast cancer. I have found a home and an extended
+                family by working side by side with all its members. I
+                feel blessed to belong to such a passionate group of volunteers who donates their time and energy to
+                assist others in their time of need. I am proud and grateful to be a “Chick”.</div>
+
+        </div>
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 txtGroupPhoto ">Contact Information:<br /> cbrun@chicksandchucks.org
+            </div>
+            <div class="col-6 "></div>
+        </div>
+        <br />
+        <br />
+        <div class=" pName adjustM ">Sue Fausz</div>
+
+
+
+        <div class=" pTitle "> Vice President - Member of Chicks & Chucks, Inc since 2006</div>
+        <br />
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 text-right "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual5Sm.jpg " alt=" "></div>
+            <div class="col-6 pr-5 ">Contagious, contagious, contagious once you are exposed to Chick’s enthusiasm and
+                dedication to helping others you become infected. Chick lives, breathes, eats and sleeps her promise to
+                God to assist others in their battle against breast cancer.
+                I could not think of anything I would rather be doing. It is a way of paying forward the blessings that
+                I have in my life. Each of the Chicks and Chucks board members bring their own unique abilities and
+                viewpoints to our organization.
+                It is a gift to be part of this organization and being able to work with the board members and their
+                family who support the Chicks and Chucks’ mission.</div>
+
+        </div>
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 txtGroupPhoto ">Contact Information:<br /> sfausz@chicksandchucks.org
+            </div>
+            <div class="col-6 "></div>
+        </div>
+        <br />
+        <br />
+        <div class=" pName adjustM ">Cheryl Hardin</div>
+
+
+
+        <div class=" pTitle "> (Co-founder, Secretary) Member of Chicks & Chucks, Inc. since 2005</div>
+        <br />
+
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 text-right "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual6Sm.jpg " alt=" "></div>
+            <div class="col-6 pr-5 ">When my sister, Cathy “Chick” Youtsey-Halloran, was diagnosed with breast cancer in
+                August of 2001, she made a vow to God that if he restored her health, she would do everything within her
+                power to help others fighting this dreaded disease.
+                I was by her side every step of the way — from being diagnosed, through surgeries, through completion of
+                her chemo treatments. While fighting breast cancer, there were many, many days that she physically could
+                not get up from the couch;
+                to walk 10 steps to her front door was unimaginable. But through her incredible faith in God, her family
+                and her friends, she persevered. To see her now, so energetic and full of life; fulfilling her vow to
+                God and having a true and genuine
+                passion for what she does is such an inspiration to me, and to the volumes of others that she has
+                helped. I thank God every day for restoring my sister’s health, and I also thank God every day for the
+                wonderful women who have joined our
+                Board of Directors because Chicks & Chucks would never have been able to reach the magnitude that this
+                organization has accomplished without them. They are all true angels from heaven – all of whom are my
+                extended “sisters”!</div>
+
+        </div>
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 txtGroupPhoto ">Contact Information:<br /> chardin@chicksandchucks.org
+                <div class="col-6 "></div>
+            </div>
+            <br />
+            <br />
+
+
+        </div>
+        <div class=" pName adjustM ">Missy Mullen</div>
+
+        <div class="pTitle "> (Treasurer, Survivor) Member of Chicks & Chucks, Inc. since 2005</div>
+        <br />
+
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 text-right "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual9Sm.jpg " alt=" "></div>
+            <div class="col-6 pr-5 ">I was fortunate enough to meet Cathy when she fitted me for a wig in the midst of
+                my own battle with breast cancer. Cathy shared her amazing story with me and I was so impressed by her
+                compassion for those battling this dreadful disease. Cathy
+                asked me to become a Chick in 2005. That year her goal was to raise $50,000. Cathy’s enthusiasm and
+                energy are infectious and after working with the Chicks for a few months I was hooked! Growing up I
+                never had a sister and thanks to Cathy
+                and Chicks & Chucks, now I have many!
+            </div>
+
+        </div>
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 txtGroupPhoto ">Contact Information:<br />mmullen@chicksandchucks.org
+                <div class="col-6 "></div>
+            </div>
+
+
+
+        </div>
+        <br />
+
+        <div class=" pName adjustM ">Barb Schmidt</div>
+
+
+
+        <div class=" pTitle "> (Board Member) Member of Chicks & Chucks, Inc. since 2006</div>
+        <br />
+
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 text-right "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual3Sm.jpg " alt=" "></div>
+            <div class="col-6 pr-5 ">I have known Cathy and have been a friend since high school. Cathy’s personal
+                journey and tenacity to help others is what brought me to Chicks & Chucks, Inc. Helping this
+                organization reach its goals in assisting those battling breast cancer
+                is a very rewarding experience. I am very proud to be a part of this wonderful group.</div>
+
+        </div>
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 txtGroupPhoto ">Contact Information:<br /> bschmidt@chicksandchucks.org
+                <div class="col-6 "></div>
+            </div>
+
+
+
+        </div>
+
+        <br />
+        <br />
+        <div class=" pName adjustM ">Bev Smith</div>
+
+
+        <div class="pTitle "> (Board Member) Member of Chicks and Chucks, Inc. since 2006</div>
+
+        <br />
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 text-right "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual1Sm.jpg " alt=" "></div>
+            <div class="col-6 pr-5 ">Once I became an empty nester, I felt like I wanted some purpose in my life and
+                what better way than to become involved in a worthy cause. I’ve known Cathy for a long time and knew the
+                passion that she had for helping women who were in the
+                same boat as she was, she understands the concerns and needs of a woman or man who has breast cancer. On
+                a more selfish note, I enjoy the entire group who volunteers their time and talent to the organization;
+                we have way too much fun.
+                Besides it has now become a family group, all our husbands, children and other extended family members
+                have become involved in the organization and will help it to continue for a long time.</div>
+
+        </div>
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 txtGroupPhoto ">Contact Information:<br /> bsmith@chicksandchucks.org
+                <div class="col-6 "></div>
+            </div>
+
+
+
+        </div>
+        <br />
+        <br />
+        <div class=" pName adjustM ">Lisa Webster</div>
+
+
+
+        <div class="pTitle "> (Board Member) Member of Chicks & Chucks, Inc since 2006</div>
+        <br />
+
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-3 text-right "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual8Sm.jpg " alt=" "></div>
+            <div class="col-6 pr-5 ">I became a member of Chicks & Chucks, Inc after seeing Cathy perform comedy and
+                dance at a couple of fundraisers I attended where she was the star! Her personal story and her
+                determination to help others motivated me to join this wonderful
+                organization. Being involved is a very rewarding experience for me and I enjoy every minute of being a
+                “Chick” .</div>
+
+        </div>
+        <div class="row " style="margin-bottom:100px ">
+            <div class="col-1 "></div>
+            <div class="col-3 txtGroupPhoto ">Contact Information:<br /> lwebster@chicksandchucks.org
+                <div class="col-6 "></div>
+            </div>
+
+
+
+        </div>
+        <br />
+        <br />
+
+
+        <div class="footer ">
+            <div class="row ">
+                <div class="col-1 "></div>
+
+                <div class="col-5 taC ">CHICKS & CHUCKS<br /> PO BOX 76166<br /> Highland Heights, KY 41076-0166</div>
+                <div class="col-5 taC ">Chick Line: 513.841.6756</div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- ---------------------------------------------------------------------------------- -->
+
+
+    <div id="smaller " class="container-fluid d-lg-none d-block ">
+        <div class="row ">
+            <div class="col-5 aboutUsTxt ">About Us</div>
+            <div class="col-5 "></div>
+            <div class="col-2 "></div>
+        </div>
+        <br />
+        <div class="row ">
+            <div class="col groupPhoto "></div>
+
+        </div>
+        <div class="row ">
+
+            <div class="col txtGroupPhoto ">First row left to right looking at the picture Bev Smith, Missy Mullen,
+                Cheryl Hardin, Lisa Webster, Jennifer Tharp Back row Barb Schmidt, Claire Bazler, Cathy Youtsey
+                Halloran, Carol Brun, Sue Fausz</div>
+        </div>
+        <br />
+
+        <div class=" missState ">Mission Statement</div>
+
+
+        <div class="row ">
+            <div class="col-2 "></div>
+
+            <div class="col-9 tAl ">The mission of Chicks & Chucks Inc. is to be a resource for Breast Cancer patients
+                who require products and services in their battle and have little or no financial means to acquire what
+                they need.</div>
+            <div class="col-1 "></div>
+
+        </div>
+        <br />
+
+
+        <div class="missState ">How we became "Chicks and Chucks "</div>
+        <br />
+
+        <div class="row ">
+            <div class="col-2 "></div>
+
+            <div class="col-9 tAl ">You can probably figure out on your own that a “Chick” is a girl and and “Chuck” is
+                a boy. But the history behind it goes back to when Cathy was a little girl. Her mother, Shirley, would
+                always refer to her and her sister Cheryl as Chicks.
+                And in 1997 her mother passed away. Grief stricken Cathy and Cheryl wanted a way to be able to
+                incorporate their mother in their everyday lives. So they began calling each other “Chick”, and it just
+                stuck. So when Cathy started her organization
+                she wanted to call it “Chicks”. But with the support of her family and friends, she realized that there
+                was quite a few men, that would not take kindly to being referred to as “Chicks” so that is where she
+                came up with “Chucks”. And that
+                is how we came to be known as “Chicks & Chucks”. In 2006, Cathy’s “Chicks and Chucks”, became a
+                non-profit, 501 (c) (3) organization.</div>
+            <div class="col-1 "></div>
+
+        </div>
+        <br />
+        <div class="missState ">2008 Woman of the Year</div>
+        <div class="row ">
+            <div class="col-2 "></div>
+
+            <div class="col-9 tAl ">In 2008 Cathy “CHICK” Youtsey-Halloran was voted one of Cincinnati Enquirer’s Women
+                of the Year. She was honored for her hard work and dedication to helping those who are in need of
+                assistance while fighting their cancer battle. She was featured
+                in a special section of the Cincinnati Enquirer, and was honored at the 41st Annual Women of the Year
+                Luncheon.</div>
+            <div class="col-1 "></div>
+
+        </div>
+        <br />
+
+
+        <div class=" pName adjustM ">Cathy Youtsey-Halloran</div>
+
+        <div class=" pTitle "> Founder, President, Survivor of Chicks & Chucks, Inc</div>
+        <br />
+
+        <div class="row ">
+            <div class="col-12 text-center "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual10Sm.jpg " alt=" "></div>
+            <div class="col-12 txtGroupPhoto ">Contact Information:<br /> Home: 859.781.3097<br /> Cell:
+                859.630.1807<br /> Fax: 859.781.0389<br /> challoran@chicksandchucks.org
+            </div>
+            <div class="col-12 px-3 text-center ">On August 6, 2001 my life changed forever. Never would I imagine this
+                path GOD has designed for me. On that day, I was diagnosed with breast cancer – and that is when the
+                transformation took place. Upon hearing the paralyzing word “CANCER”,
+                my life changed forever. I had no idea just how incredible the journey would be. My sister/best friend
+                reminded me of a phrase our Mom would always say, “This has happened for a reason”!!! At that point I
+                asked GOD to give me a second
+                chance and I vowed to HIM that I would dedicate the rest of my life to help others battling this same
+                terrible disease. HE certainly answered my prayer and now it is my turn to live up to that vow. Thus the
+                creation of CHICKS & CHUCKS.
+                We are an incredible group of hard working, compassionate, caring, loving, committed and AMAZING Chicks
+                and Chucks (guys). Our group truly embraces the bond we have. We use our positive energy to raise money
+                to supply products and services
+                for breast cancer patients/survivors in our own communities. Chicks & Chucks was created in 2005. We
+                became non-profit on July 18, 2006 and have never looked back- only forward! We are truly blessed
+                because our family members and their
+                spouses/friends complete our circle of strength and determination. Chick & Chucks has grown and expanded
+                each year. We have been able to help more people each year because of our dedicated supporters. We are a
+                dedicated group, with dedicated
+                supporters trying to make a difference in our local communities.</div>
+
+        </div>
+
+        <br />
+        <br />
+        <div class=" pName adjustM ">Carol Brun</div>
+
+
+
+
+        <div class=" pTitle "> (Board Member) Member of Chicks & Chucks, Inc. since 2007</div>
+        <br />
+
+
+        <div class="row ">
+            <div class="col-1 "></div>
+            <div class="col-12 text-center "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual7Sm.jpg " alt=" "></div>
+            <div class="col-12 txtGroupPhoto ">Contact Information:<br /> cbrun@chicksandchucks.org
+            </div>
+            <div class="col-12 px-3 text-center ">I joined Chicks & Chucks after attending a fundraiser and being moved
+                by Cathy’s determination and devotion to helping those battling breast cancer. I have found a home and
+                an extended family by working side by side with all its members. I
+                feel blessed to belong to such a passionate group of volunteers who donates their time and energy to
+                assist others in their time of need. I am proud and grateful to be a “Chick”.</div>
+        </div>
+        <br />
+        <br />
+
+        <div class=" pName adjustM ">Sue Fausz</div>
+
+
+
+        <div class=" pTitle "> Vice President - Member of Chicks & Chucks, Inc since 2006</div>
+        <br />
+        <div class="row ">
+            <div class="col-12 text-center "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual5Sm.jpg " alt=" "></div>
+            <div class="col-12 txtGroupPhoto ">Contact Information:<br /> sfausz@chicksandchucks.org
+            </div>
+            <div class="col-12 px-3 text-center ">Contagious, contagious, contagious once you are exposed to Chick’s
+                enthusiasm and dedication to helping others you become infected. Chick lives, breathes, eats and sleeps
+                her promise to God to assist others in their battle against breast cancer.
+                I could not think of anything I would rather be doing. It is a way of paying forward the blessings that
+                I have in my life. Each of the Chicks and Chucks board members bring their own unique abilities and
+                viewpoints to our organization.
+                It is a gift to be part of this organization and being able to work with the board members and their
+                family who support the Chicks and Chucks’ mission.</div>
+
+        </div>
+        <br />
+        <br />
+        <div class=" pName adjustM ">Cheryl Hardin</div>
+
+
+
+        <div class=" pTitle "> (Co-founder, Secretary) Member of Chicks & Chucks, Inc. since 2005</div>
+        <br />
+
+        <div class="row ">
+            <div class="col-12 text-center "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual6Sm.jpg " alt=" "></div>
+            <div class="col-12 txtGroupPhoto ">Contact Information:<br /> sfausz@chicksandchucks.org
+            </div>
+            <div class="col-12 px-3 text-center ">When my sister, Cathy “Chick” Youtsey-Halloran, was diagnosed with
+                breast cancer in August of 2001, she made a vow to God that if he restored her health, she would do
+                everything within her power to help others fighting this dreaded disease.
+                I was by her side every step of the way — from being diagnosed, through surgeries, through completion of
+                her chemo treatments. While fighting breast cancer, there were many, many days that she physically could
+                not get up from the couch;
+                to walk 10 steps to her front door was unimaginable. But through her incredible faith in God, her family
+                and her friends, she persevered. To see her now, so energetic and full of life; fulfilling her vow to
+                God and having a true and genuine
+                passion for what she does is such an inspiration to me, and to the volumes of others that she has
+                helped. I thank God every day for restoring my sister’s health, and I also thank God every day for the
+                wonderful women who have joined our
+                Board of Directors because Chicks & Chucks would never have been able to reach the magnitude that this
+                organization has accomplished without them. They are all true angels from heaven – all of whom are my
+                extended “sisters”!</div>
+
+        </div>
+
+        <br />
+        <br />
+
+
+
+        <div class=" pName adjustM ">Missy Mullen</div>
+
+        <div class="pTitle "> (Treasurer, Survivor) Member of Chicks & Chucks, Inc. since 2005</div>
+        <br />
+
+        <div class="row ">
+
+            <div class="col-12 text-center "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual9Sm.jpg " alt=" "></div>
+            <div class="col-12 txtGroupPhoto ">Contact Information:<br />mmullen@chicksandchucks.org</div>
+            <div class="col-12 px-3 text-center ">I was fortunate enough to meet Cathy when she fitted me for a wig in
+                the midst of my own battle with breast cancer. Cathy shared her amazing story with me and I was so
+                impressed by her compassion for those battling this dreadful disease. Cathy
+                asked me to become a Chick in 2005. That year her goal was to raise $50,000. Cathy’s enthusiasm and
+                energy are infectious and after working with the Chicks for a few months I was hooked! Growing up I
+                never had a sister and thanks to Cathy
+                and Chicks & Chucks, now I have many!
+            </div>
+
+        </div>
+
+        <br />
+
+        <div class=" pName adjustM ">Barb Schmidt</div>
+
+
+
+        <div class=" pTitle "> (Board Member) Member of Chicks & Chucks, Inc. since 2006</div>
+        <br />
+
+        <div class="row ">
+            <div class="col-12 text-center "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual3Sm.jpg " alt=" "></div>
+
+            <div class="col-12 txtGroupPhoto ">Contact Information:<br /> bschmidt@chicksandchucks.org
+            </div>
+            <div class=" col-12 px-3 text-center ">I have known Cathy and have been a friend since high school. Cathy’s
+                personal journey and tenacity to help others is what brought me to Chicks & Chucks, Inc. Helping this
+                organization reach its goals in assisting those battling breast cancer
+                is a very rewarding experience. I am very proud to be a part of this wonderful group.</div>
+
+        </div>
+        <br />
+        <br />
+        <div class=" pName adjustM ">Bev Smith</div>
+
+
+        <div class="pTitle "> (Board Member) Member of Chicks and Chucks, Inc. since 2006</div>
+
+        <br />
+        <div class="row ">
+            <div class="col-12 text-center "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual1Sm.jpg " alt=" "></div>
+
+            <div class="col-12 txtGroupPhoto ">Contact Information:<br /> bsmith@chicksandchucks.org
+            </div>
+
+            <div class="col-12 px-3 text-center ">Once I became an empty nester, I felt like I wanted some purpose in my
+                life and what better way than to become involved in a worthy cause. I’ve known Cathy for a long time and
+                knew the passion that she had for helping women who were in the
+                same boat as she was, she understands the concerns and needs of a woman or man who has breast cancer. On
+                a more selfish note, I enjoy the entire group who volunteers their time and talent to the organization;
+                we have way too much fun.
+                Besides it has now become a family group, all our husbands, children and other extended family members
+                have become involved in the organization and will help it to continue for a long time.</div>
+
+        </div>
+        <br />
+        <br />
+        <div class=" pName adjustM ">Lisa Webster</div>
+
+
+
+        <div class="pTitle "> (Board Member) Member of Chicks & Chucks, Inc since 2006</div>
+        <br />
+
+        <div class="row ">
+            <div class="col-12 text-center "><img class="h-100 mx-auto card "
+                    src="http://chicksandchucks.org/wp-content/uploads/2011/06/Individual8Sm.jpg " alt=" "></div>
+            <div class="col-12 txtGroupPhoto ">Contact Information:<br /> lwebster@chicksandchucks.org</div>
+
+            <div class="col-12 px-3 text-center ">I became a member of Chicks & Chucks, Inc after seeing Cathy perform
+                comedy and dance at a couple of fundraisers I attended where she was the star! Her personal story and
+                her determination to help others motivated me to join this wonderful
+                organization. Being involved is a very rewarding experience for me and I enjoy every minute of being a
+                “Chick” .</div>
+
+        </div>
+        <div class="row " style="margin-bottom:100px ">
+        </div>
+    </div>
+        <div class="container-fluid pink d-md-none d-block" id="footer">
+            <div class="row h-100">
+                <div class="col mx-auto text-center">
+                    <div class="row h-100">
+                        <div class="col align-self-center p-4">
+                            <a href="https://www.paypal.com/us/home">
+                                <button class="btn hovlpinkb green l fredoka in-but border-0">
+                                    Donate Now!
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto text-center">
+                    <div class="row h-100">
+                        <div class="col align-self-center p-4">
+                            <a href="#top">
+                                <button class="btn hovlpinkb green xl fredoka in-but border-0">
+                                    Top
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto text-center">
+                    <div class="row h-100">
+                        <div class="col align-self-center">
+                            <a class="d-md-none d-inline mr-md-5 mr-4 bot-ico" href="http://www.facebook.com/CHICKSandCHUCKS"><i
+                                    class="fa fa-facebook bot-shadow tdark hovgreen"></i></a>
+                            <a class="d-md-none d-inline  bot-ico" href="http://twitter.com/chicksandchucks"><i
+                                    class="fa fa-twitter bot-shadow tdark hovgreen"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
