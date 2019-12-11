@@ -1,3 +1,5 @@
+//Author: Levi Schanding
+
 console.log("Page loaded");
 
 class Post {

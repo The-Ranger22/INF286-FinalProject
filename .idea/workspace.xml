@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10772b7d-68ef-483c-8d63-621daeb4f61f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-community.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-community.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/community.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/community.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,14 +12,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.56845635">
+    <splitter split-orientation="horizontal" split-proportion="0.19932885">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/community.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="331">
-                  <caret line="165" column="39" selection-start-line="165" selection-start-column="39" selection-end-line="165" selection-end-column="39" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -39,7 +38,7 @@
         <splitter split-orientation="horizontal" split-proportion="0.82018924">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/css/style-community.css">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="391">
@@ -57,11 +56,11 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/js/community.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-90">
-                      <caret line="143" column="48" lean-forward="true" selection-start-line="143" selection-start-column="48" selection-end-line="143" selection-end-column="48" />
+                    <state>
+                      <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
                       <folding>
                         <element signature="e#366#5477#0" />
                         <element signature="n#!!block;n#getRandomInt#0" />
@@ -136,10 +135,10 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/data/testimonial_entries.JSON" />
         <option value="$PROJECT_DIR$/data/blog_entries" />
-        <option value="$PROJECT_DIR$/js/community.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/style-community.css" />
         <option value="$PROJECT_DIR$/community.html" />
+        <option value="$PROJECT_DIR$/js/community.js" />
       </list>
     </option>
   </component>
@@ -182,7 +181,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576025384189" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576025393904" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/INF286-Forms" />
@@ -216,12 +215,12 @@
       <workItem from="1575571673518" duration="13501000" />
       <workItem from="1575671004266" duration="16353000" />
       <workItem from="1575914701146" duration="1330000" />
-      <workItem from="1575928330928" duration="35186000" />
+      <workItem from="1575928330928" duration="35598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66370000" />
+    <option name="totallyTimeSpent" value="66782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -288,17 +287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/community.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="143" column="48" lean-forward="true" selection-start-line="143" selection-start-column="48" selection-end-line="143" selection-end-column="48" />
-          <folding>
-            <element signature="e#366#5477#0" />
-            <element signature="n#!!block;n#getRandomInt#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -313,10 +301,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/community.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#366#5477#0" />
+            <element signature="n#!!block;n#getRandomInt#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/community.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="165" column="39" selection-start-line="165" selection-start-column="39" selection-end-line="165" selection-end-column="39" />
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
