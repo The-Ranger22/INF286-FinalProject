@@ -7,12 +7,12 @@ i:hover {
     color: #93D868;
 }
 
-.btn {
+#sub-btn {
     background-color: #FF6DB1;
     color: white;
     border: #FF6DB1;
 }
 
-.btn:hover {
+#sub-btn:hover {
     background-color: #93D868;
 }
