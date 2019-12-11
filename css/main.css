@@ -81,17 +81,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .top-ico {
-  font-size: 12vh;
+  font-size: 8vw;
 }
 
 .bot-ico {
-  font-size: 10vh;
+  font-size: 10vw;
 }
 .one-edge-shadow {
   -moz-box-shadow: inset 0px 0px 39px -10px #000000;
   -webkit-box-shadow: inset 0px 0px 39px -10px #000000;
   box-shadow: inset 0px 0px 39px -10px #000000;
-}
+} 
 .top-shadow{
   text-shadow: 3px 3px 4px #7f7f7f;
 }
