@@ -10,7 +10,7 @@
 .Poiret {
   font-family: "Poiret One", cursive;
 }
-.Dosis {
+.dosis {
   font-family: "Dosis", sans-serif;
 }
 .bg {
@@ -40,9 +40,6 @@
 }
 .hovgreen:hover {
   color: #93d868;
-  border-radius: 3px;
-  background: #ff6db1;
-  padding: 3px;
 }
 .hovdark:hover {
   color: #2c4251;
@@ -54,8 +51,8 @@
   background-color: #ff6db1;
 }
 .hovlpinkb:hover {
-    background-color: #ffc1e5;
-  }
+  background-color: #ffc1e5;
+}
 .l {
   font-size: large;
 }
@@ -71,14 +68,45 @@
 .hugest {
   font-size: 200%;
 }
-.top-ico{
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.top-ico {
   font-size: 12vh;
 }
-html{
-    padding: 0;
-    margin: 0;
+
+.bot-ico {
+  font-size: 10vh;
+}
+.one-edge-shadow {
+  -moz-box-shadow: inset 0px 0px 39px -10px #000000;
+  -webkit-box-shadow: inset 0px 0px 39px -10px #000000;
+  box-shadow: inset 0px 0px 39px -10px #000000;
+}
+.top-shadow{
+  text-shadow: 3px 3px 4px #7f7f7f;
+}
+.bot-shadow{
+  text-shadow: 3px 3px 7px #3f3f3f;
+}
+.nav-link:hover {
+  -webkit-box-shadow: inset 0px -23px 50px -30px #000000;
+  box-shadow: inset 0px -23px 50px -30px #000000;
 }
 body{
-    padding: 0;
-    margin: 0;
+  font-family: "Dosis", sans-serif;
+}
+.in-but{
+  -webkit-box-shadow: inset 0px 23px 20px -30px #000000,0px 15px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 23px 20px -30px #000000,0px 15px 20px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 23px 20px -30px #000000,0px 15px 20px rgba(0, 0, 0, 0.4);
 }
